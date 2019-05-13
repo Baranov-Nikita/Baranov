@@ -10,7 +10,7 @@
     height: 100%;
     bottom: 300px;
     left: 83%;
-    background: url(/chocco/img/reviews-berries.png)center center no-repeat;
+    background: url(/img/reviews-berries.png)center center no-repeat;
 }
 .reviews__title{
     font-size: 48px;
@@ -34,7 +34,7 @@
     height: 100%;
     bottom: 70px;
     left: 100px;
-    background: url(/chocco/img/reviews-bg.png)100% center no-repeat;
+    background: url(/img/reviews-bg.png)100% center no-repeat;
 }
 .reviews__main-content{
     padding-top: 19px;
@@ -79,13 +79,13 @@
     border: 8px solid transparent;
 }
 .reviews__icon1{
-    background: url(/chocco/img/reviews-icon1.png)center center no-repeat;
+    background: url(/img/reviews-icon1.png)center center no-repeat;
 }
 .reviews__icon2{
-    background: url(/chocco/img/reviews-icon2.png)center 13% no-repeat;
+    background: url(/img/reviews-icon2.png)center 13% no-repeat;
 }
 .reviews__icon3{
-    background: url(/chocco/img/reviews-icon3.png)46% 34% no-repeat;
+    background: url(/img/reviews-icon3.png)46% 34% no-repeat;
 }
 .reviews__item-active, .reviews__item:hover{
     border: 8px solid #0f5a47; 

@@ -1,0 +1,95 @@
+.welcome{
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+    background: url(/chocco/img/welcome-bg-leaf.png)100% center no-repeat;
+    background-color: #61c4d9;
+}
+.welcome__body::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 60%;
+    height: 100%;
+    bottom: 60px;
+    left: 430px;
+    background: url(/chocco/img/bars.png)100% center no-repeat;
+}
+.welcome::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 60%;
+    height: 100%;
+    top: 220px;
+    left: 350px;
+    background: url(/chocco/img/welcome-berries.png)100% center no-repeat;
+}
+.welcome__body{
+   position: relative;
+}
+.welcome::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 98%;
+    height: 100%;
+    top: 190px;
+    left: 10px;
+    background: url(/chocco/img/welcome-leafs.png)center center no-repeat;
+}
+
+
+.welcome__body-title{
+    width: 50%;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    margin-bottom: 25px; 
+}
+.welcome__body-subtitle{
+    width: 45%;
+    font-size: 21px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.welcome__body-button{
+    width: 156px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 19px;
+    color: #0f5a47;
+    font-family: "Alegreya Sans";
+    font-weight: 800;
+    margin-bottom: 68px;
+}
+.welcome__body-features{
+    display: flex;
+    padding-bottom: 50px;
+}
+.welcome__body-features__link{
+    display: flex;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    width: 14%;
+    height: 100%;
+    margin-right: 48px; 
+}
+.welcome__body-features__link:last-child{
+    margin: 0;
+}
+.welcome__body-features__img{
+    height: 100%;
+    margin-right: 10px;
+}
+.welcome__body-features__text{
+    margin: 0;
+}

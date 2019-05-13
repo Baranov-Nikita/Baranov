@@ -1,0 +1,66 @@
+.features{
+margin-bottom: 120px;
+}
+.features__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.features__title{
+    font-size: 48px;
+    color: #0d0d0d;
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.features__subtitle{
+    font-size: 18px;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.features__list{
+    display: flex;
+    justify-content: center;
+}
+.features__item{
+    width: calc(100%/3);
+
+}
+
+.features__icon-1{
+    background: url(/chocco/img/features-icon1.png)center center no-repeat;
+}
+.features__icon-2{
+    background: url(/chocco/img/features-icon2.png)center center no-repeat;
+}
+.features__icon-3{
+    background: url(/chocco/img/features-icon3.png)center center no-repeat;
+}
+.features__item-img{
+    width: 125px;
+    height: 125px;
+    border-radius: 62px;
+    background-color: #f2f5f4;
+    margin: auto;
+    margin-bottom: 32px;
+}
+.features__item-title{
+    font-size: 27px;
+    color: #000000; 
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    text-align: center;
+}
+.features__item-text{
+    font-size: 18px;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+.reviews{
+    position: relative;
+    margin-bottom: 100px;
+}
+.reviews::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 100%;
+    bottom: 300px;
+    left: 83%;
+    background: url(/chocco/img/reviews-berries.png)center center no-repeat;
+}
+.reviews__title{
+    font-size: 48px;
+    color: #0d0d0d;
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    text-align: center; 
+}
+.reviews__main{
+    position: relative;
+    display: flex;
+    background-color: #f8faf9;
+    padding: 50px 100px 14px 108px;
+    margin-bottom: 50px;
+}
+.reviews__main::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 90%;
+    height: 100%;
+    bottom: 70px;
+    left: 100px;
+    background: url(/chocco/img/reviews-bg.png)100% center no-repeat;
+}
+.reviews__main-content{
+    padding-top: 19px;
+}
+.reviews__main-title{
+    font-size: 30px;
+    color: #323232;
+    font-family: "Alegreya Sans";
+    font-weight: 500;
+    margin-bottom: 39px;
+}
+.reviews__main-text{
+    font-size: 18px;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+.reviews__main-name{
+    font-size: 18px;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-weight: 500;
+}
+
+.reviews__main-img{
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.reviews__list{
+    display: flex;
+    justify-content: center;
+}
+.reviews__item{
+    border-radius:50%;
+    width: 93px;
+    height: 93px;
+    background-color: #8d8282;
+    margin-right: 38px;
+    border: 8px solid transparent;
+}
+.reviews__icon1{
+    background: url(/chocco/img/reviews-icon1.png)center center no-repeat;
+}
+.reviews__icon2{
+    background: url(/chocco/img/reviews-icon2.png)center 13% no-repeat;
+}
+.reviews__icon3{
+    background: url(/chocco/img/reviews-icon3.png)46% 34% no-repeat;
+}
+.reviews__item-active, .reviews__item:hover{
+    border: 8px solid #0f5a47; 
+}

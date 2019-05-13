@@ -1,0 +1,10 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+@import url('./base.css');
+
+@import url('./welcome.css');
+@import url('./header.css');
+@import url('./features.css');
+@import url('./reviews.css');
+@import url('./footer.css');
+@import url('./fixed-menu.css');

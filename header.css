@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 55px;
+}
+.header__navigation{
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    text-align: right;
+}
+    
+.header__telefon{
+    position: relative;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    text-align: right;
+}
+.header__telefon::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -20px;
+    top: 5px;
+    background: url(/chocco/img/phone\ .png) center center no-repeat;
+}
+.header__navigation-link{
+    margin-right: 29px;
+}
+.header__navigation-link:last-child{
+    margin: 0;
+}

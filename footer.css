@@ -30,7 +30,7 @@
     height: 20px;
     left: 0;
     top: 5px;
-    background: url(/chocco/img/phone2.png) center center no-repeat;
+    background: url(/img/phone2.png) center center no-repeat;
 }
 .footer__social{
     margin: auto 0;
@@ -48,14 +48,14 @@
     margin-right: 0;
 }
 .social-vk{
-    background: url(/chocco/img/vk.png)center center no-repeat;
+    background: url(/img/vk.png)center center no-repeat;
 }
 .social-fb{
-    background: url(/chocco/img/fb_hover.png)center center no-repeat;
+    background: url(/img/fb_hover.png)center center no-repeat;
 }
 .social-inst{
-    background: url(/chocco/img/inst.png)center center no-repeat;
+    background: url(/img/inst.png)center center no-repeat;
 }
 .social-tw{
-    background: url(/chocco/img/twitter.png)center center no-repeat;
+    background: url(/img/twitter.png)center center no-repeat;
 }

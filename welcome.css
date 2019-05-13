@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     margin-bottom: 100px;
-    background: url(/chocco/img/welcome-bg-leaf.png)100% center no-repeat;
+    background: url(/img/welcome-bg-leaf.png)100% center no-repeat;
     background-color: #61c4d9;
 }
 .welcome__body::before{
@@ -13,7 +13,7 @@
     height: 100%;
     bottom: 60px;
     left: 430px;
-    background: url(/chocco/img/bars.png)100% center no-repeat;
+    background: url(/img/bars.png)100% center no-repeat;
 }
 .welcome::after{
     position: absolute;
@@ -23,7 +23,7 @@
     height: 100%;
     top: 220px;
     left: 350px;
-    background: url(/chocco/img/welcome-berries.png)100% center no-repeat;
+    background: url(/img/welcome-berries.png)100% center no-repeat;
 }
 .welcome__body{
    position: relative;
@@ -36,7 +36,7 @@
     height: 100%;
     top: 190px;
     left: 10px;
-    background: url(/chocco/img/welcome-leafs.png)center center no-repeat;
+    background: url(/img/welcome-leafs.png)center center no-repeat;
 }
 
 

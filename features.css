@@ -34,13 +34,13 @@ margin-bottom: 120px;
 }
 
 .features__icon-1{
-    background: url(/chocco/img/features-icon1.png)center center no-repeat;
+    background: url(/img/features-icon1.png)center center no-repeat;
 }
 .features__icon-2{
-    background: url(/chocco/img/features-icon2.png)center center no-repeat;
+    background: url(/img/features-icon2.png)center center no-repeat;
 }
 .features__icon-3{
-    background: url(/chocco/img/features-icon3.png)center center no-repeat;
+    background: url(/img/features-icon3.png)center center no-repeat;
 }
 .features__item-img{
     width: 125px;
